@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public interface Service {
+public interface Service {
+
+    void check(Car[] cars);
+
+    void check(Truck[] trucks);
+
+    void check(Bicycle[] bicycles);
 }
